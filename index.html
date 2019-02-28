@@ -1,49 +1,48 @@
-<!--
-    No HTML tudo é envolto em uma <tag>, a maioria abre e fecha, ex.: <tag> </tag>.
+<!doctype html> <!--HTML5--> 
 
+
+<!-- 
+No HTML tudo é envolto
+em uma <tag>, a maioria abre e fecha,
+ex.: <tag>  </tag>
 -->
-<html>
+<html lang="pt-BR"> <!--Hyper Text Markup Language-->
 <head>
-
     <title>
-    Chilling Adventures of Sabrina.
+        Título do meu site
     </title>
-</head>
+</head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width"> <!--ajustar largura de visualização do celular-->
+     <!-- text encoding: codificação dos caracteres -->
 <body>
-    Here, we don't have rules.
-    <br>
-    <strong> Really. negrito </strong>
-    <br>
-    <i> REEEEEEEALLY. itálico </i>
-    <p>Isso é um parágrafo.</p>
-    <p> outer </p>
-    <script> 
-    alert('js funcionando');
-    //js comment
+
+    Texto solto
+    <strong>texto destacado</strong>
+    <br><br>
+    <p>Isso é um parágrafo</p>
+    <i>itálico</i>
+    <strong>texto destacado</strong> 
+    <script>
+    // alert('js funcionando');
+    // comentário js
     console.log('teste no console');
-    //declaração de variável.
-    //não usar var
-    let x = 3; 
-    let y = 9;
-    console.log(x+y);
+     // não usar var!
+    // declaração de variável
+    let x;
+    // atribuição
+    x = 3;
+    let y = '9';
+    console.log(x + y);
     console.log(typeof(x));
-    const z = 13; //constante
-    z = 18; //retorna erro.
+    y = 15; // y é uma variável
+    console.log(x + y);
+    const z = 13; // constante
+    z = 18;
     console.log(z);
-    console.log(Math.pow(2,8)); //nao pode usar o math
-    console.log('teste'.toUpperCase()); //nao pode usar o uppercase
-    
-    
-    
-    
-    
-
+    console.log(Math.pow(2, 8));
+    console.log('teste'.toUpperCase());
     </script>
-    //comentario
-    
+    // comentário
 </body>
-
 </html>
-
-
-
